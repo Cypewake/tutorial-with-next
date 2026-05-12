@@ -1,0 +1,11 @@
+{
+  "deploy": {
+    "project": "xuetong-proxy",
+    "entrypoint": "main.ts",
+    "exclude": [
+      ".env",
+      ".env.example",
+      "README.md"
+    ]
+  }
+}
